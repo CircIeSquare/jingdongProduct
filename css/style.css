@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+ul,li,ol{list-style:none;}
+img,input,button{border:0;}
+a{text-decoration:none;}
+body{font-family:arial,"Microsoft YaHei","宋体";}
+a:hover{color:#c91d2a;}
+
+/* 清除浮动 */
+.clear:after{content:'200B';display:block;font-size:0;height:0;clear:both;}
+/*IE7/6*/
+.clear{*zoom:1;}
